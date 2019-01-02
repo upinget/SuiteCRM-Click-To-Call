@@ -1,1 +1,1 @@
-# SuiteCRM Click to Call (Asterisk)
+# SuiteCRM Click to Call (astCTI)
