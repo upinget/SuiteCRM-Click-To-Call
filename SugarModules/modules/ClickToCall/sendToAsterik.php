@@ -50,7 +50,7 @@ class ClickToCall
         syslog(LOG_DEBUG, 'Asterisk: ' . $this->getAsteriskIp());
         syslog(LOG_DEBUG, 'Calling extension: ' . $extension);
         syslog(LOG_DEBUG, 'Number to call: ' . $numberCall);
-        $url = urlencode("http://$asterisk:$asteriskPort/makecall?extension=$extension&destination=$numberCall&payload=json");
+        $url = urlencode("http://$asterisk:$asteriskPort/makecall?extension=$extension&destination=$numberCall&payload=json&callto=true");
         syslog(LOG_DEBUG, 'Calling URL: ' . $url);
         $ch = curl_init();
         // Will return the response, if false it print the response
