@@ -24,9 +24,9 @@ $manifest = array(
     'icon' => '',
     'is_uninstallable' => true,
     'name' => 'SuiteCRM Click to Call (Asterisk)',
-    'published_date' => 'January 4, 2019',
+    'published_date' => 'January 5, 2019',
     'type' => 'module',
-    'version' => 'v1.0.1',
+    'version' => 'v1.0.2',
     'remove_tables' => false
 );
 
