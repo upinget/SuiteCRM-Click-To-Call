@@ -47,7 +47,8 @@ class ClickToCall
         $numberCall = $this->cleanNumber($this->getNumber());
 
         syslog(LOG_DEBUG, 'Start call');
-        syslog(LOG_DEBUG, 'Asterisk: ' . $this->getAsteriskIp());
+        syslog(LOG_DEBUG, 'CTI IP: ' . $this->getAsteriskIp());
+        syslog(LOG_DEBUG, 'CTI Port: ' . $this->getAsteriskPort()); 
         syslog(LOG_DEBUG, 'Calling extension: ' . $extension);
         syslog(LOG_DEBUG, 'Number to call: ' . $numberCall);
         $numberEncoded = urlencode($numberCall);
