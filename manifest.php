@@ -20,13 +20,13 @@ $manifest = array(
     'readme' => '',
     'key' => '',
     'author' => ' ',
-    'description' => 'SuiteCRM Click to Call (Asterisk)',
+    'description' => 'SuiteCRM Click to Call',
     'icon' => '',
     'is_uninstallable' => true,
-    'name' => 'SuiteCRM Click to Call (Asterisk)',
-    'published_date' => 'January 5, 2019',
+    'name' => 'SuiteCRM Click to Call',
+    'published_date' => 'January 7, 2019',
     'type' => 'module',
-    'version' => 'v1.0.2',
+    'version' => 'v1.0.0',
     'remove_tables' => false
 );
 

@@ -43,7 +43,7 @@ function post_install()
     );
 
     echo '<br />';
-    echo '<p><strong>SuiteCRM Click to Call (Asterisk)</strong> Installed Successfully .........</p>';
+    echo '<p><strong>SuiteCRM Click to Call</strong> Installed Successfully .........</p>';
     echo '<br />';
 
 }

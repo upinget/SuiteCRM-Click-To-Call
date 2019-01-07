@@ -4,8 +4,8 @@ if (!isset($mod_strings)) {
     $mod_strings = array();
 }
 
-$mod_strings['LBL_CLICKTOCALL_PHONE_EXTENSION'] = 'Asterisk Extension';
-$mod_strings['LBL_CLICKTOCALL_PANEL'] = 'Asterisk';
+$mod_strings['LBL_CLICKTOCALL_PHONE_EXTENSION'] = 'CTI Extension';
+$mod_strings['LBL_CLICKTOCALL_PANEL'] = 'CTI';
 
 
 $mod_strings['LBL_ENTER_ACTIVATION_KEY'] = 'Enter Activation Key';
