@@ -5,7 +5,7 @@ if (!isset($mod_strings)) {
 }
 
 $mod_strings['LBL_CLICKTOCALL_PHONE_EXTENSION'] = 'CTI Extension';
-$mod_strings['LBL_CLICKTOCALL_PANEL'] = 'CTI';
+$mod_strings['LBL_CLICKTOCALL_PANEL'] = 'SuiteCRM Click To Call';
 
 
 $mod_strings['LBL_ENTER_ACTIVATION_KEY'] = 'Enter Activation Key';
